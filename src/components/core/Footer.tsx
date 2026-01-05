@@ -64,7 +64,7 @@ export default function Footer() {
         />
         <p className="opacity-50 transition-all duration-300 ease-in-out group-hover:opacity-100">
           <Link target="_blank" href="https://www.ramx.in">
-            Build with ❤️{" "}
+            Built with ❤️{" "}
             <span className="transition-all duration-300 ease-in-out group-hover:underline">
               Ram
             </span>
