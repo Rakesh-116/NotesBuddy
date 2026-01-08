@@ -42,7 +42,7 @@ export default function Footer() {
         ))}
       </div>
       <div className="text-muted-foreground text-sm">
-        © 2024 Notes Buddy. All rights reserved.
+      © {new Date().getFullYear()} Notes Buddy. All rights reserved.
       </div>
       <div className="font-excon relative text-5xl font-black tracking-tighter text-nowrap opacity-15 lg:text-9xl">
         <Image
@@ -64,7 +64,7 @@ export default function Footer() {
         />
         <p className="opacity-50 transition-all duration-300 ease-in-out group-hover:opacity-100">
           <Link target="_blank" href="https://www.ramx.in">
-            Build with ❤️{" "}
+            Built with ❤️{" "}
             <span className="transition-all duration-300 ease-in-out group-hover:underline">
               Ram
             </span>
